@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb3b637f-3ad2-4b53-b18b-10c1a67a415b" name="Changes" comment="" />
+    <list default="true" id="fb3b637f-3ad2-4b53-b18b-10c1a67a415b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/S01T04N02Ex01AlbertMartin/MordorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/S01T04N02Ex01AlbertMartin/MordorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/S01T04N02Ex01AlbertMartin/StringMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/S01T04N02Ex01AlbertMartin/StringMatcher.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AneLUfRvdriaq6kexsCxE8UYEF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,13 +34,107 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/albert/Escritorio/IdeaProjects/ITAcademy Sprint 1/Nivell 2/S01T04N02AlbertMartin&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;testing.instrumented.configuration&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.MordorTest">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="S01T04N02AlbertMartin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="S01T04N02Ex01AlbertMartin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="S01T04N02Ex01AlbertMartin" />
+      <option name="MAIN_CLASS_NAME" value="S01T04N02Ex01AlbertMartin.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MordorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="S01T04N02AlbertMartin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="S01T04N02Ex01AlbertMartin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="S01T04N02Ex01AlbertMartin" />
+      <option name="MAIN_CLASS_NAME" value="S01T04N02Ex01AlbertMartin.MordorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MordorTest.mordorStringLenght" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="S01T04N02AlbertMartin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="S01T04N02Ex01AlbertMartin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="S01T04N02Ex01AlbertMartin" />
+      <option name="MAIN_CLASS_NAME" value="S01T04N02Ex01AlbertMartin.MordorTest" />
+      <option name="METHOD_NAME" value="mordorStringLenght" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MordorTest.mordorStringLenghtWithAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="S01T04N02AlbertMartin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="S01T04N02Ex01AlbertMartin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="S01T04N02Ex01AlbertMartin" />
+      <option name="MAIN_CLASS_NAME" value="S01T04N02Ex01AlbertMartin.MordorTest" />
+      <option name="METHOD_NAME" value="mordorStringLenghtWithAssert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MordorTest.mordorStringLenghtWithMatcher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="S01T04N02AlbertMartin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="S01T04N02Ex01AlbertMartin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="S01T04N02Ex01AlbertMartin" />
+      <option name="MAIN_CLASS_NAME" value="S01T04N02Ex01AlbertMartin.MordorTest" />
+      <option name="METHOD_NAME" value="mordorStringLenghtWithMatcher" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MordorTest" />
+        <item itemvalue="JUnit.MordorTest.mordorStringLenghtWithAssert" />
+        <item itemvalue="JUnit.MordorTest.mordorStringLenghtWithMatcher" />
+        <item itemvalue="JUnit.MordorTest.mordorStringLenght" />
+        <item itemvalue="JUnit.AppTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,7 +143,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655649725035</updated>
+      <workItem from="1655649726318" duration="2562000" />
+      <workItem from="1655708443210" duration="622000" />
+      <workItem from="1655734854305" duration="76000" />
+      <workItem from="1655878197886" duration="2767000" />
+      <workItem from="1655965420967" duration="813000" />
+      <workItem from="1656066305888" duration="49000" />
+      <workItem from="1656243924043" duration="4674000" />
+      <workItem from="1656256071358" duration="1658000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/S01T04N02AlbertMartin$MordorTest_mordorStringLenght.ic" NAME="MordorTest.mordorStringLenght Coverage Results" MODIFIED="1656248322708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>S01T04N02Ex01AlbertMartin.*</FILTER>
+    </SUITE>
   </component>
 </project>

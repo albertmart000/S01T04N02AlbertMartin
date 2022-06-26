@@ -1,37 +1,32 @@
 package S01T04N02Ex01AlbertMartin;
 
-import org.hamcrest.Description;
-import org.hamcrest.FeatureMatcher;
-import org.hamcrest.Matcher;
 import org.junit.Test;
+
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.core.IsEqual.equalTo;
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertEquals;
 
-public class AppTest {
+public class MordorTest {
 
-        FeatureMatcher featureMatcher= new FeatureMatcher() {
+    String wordToCheck = "Mordor";
+    int expectedStringLenght = 8;
 
+    //Per a veure si el nostre test funciona correctament, fem que falli assignant una longitud errònia al
+    //string "Mordor". Utilitzem un Matcher.
+    @Test
+    public void mordorStringLenghtWithMatcher (){
 
-            @Override
-            protected Object featureValueOf(Object o) {
-                return null;
-            }
-            @Override
-            protected boolean matchesSafely(Object actual, Description mismatch) {
-                return super.matchesSafely(actual, mismatch);
-            }
+        assertThat(String.valueOf(wordToCheck.length()), is(expectedStringLenght));
 
-        };
-   /* public static Matcher<Integer>stringLenght(String "Mordor")
-        return new FeatureMatcher*/
+    //Per poder comparar, fem el mateix test, però amb JUnit
+    }
+    @Test
+    public void mordorStringLenghtWithAssert(){
 
-  /*  @Test
-    public void testStringLenght(){
+        assertEquals("La longitud esperada del string Mordor és: " +
+                expectedStringLenght +  " i la longitud del string Mordor és: " +
+                wordToCheck.length(), wordToCheck.length(), expectedStringLenght);
 
-        String currentString = "Mordor";
-        int expectedStringLenght = 8;
+    }
 
-        assertThat(currentString.length(), equalTo(8));
-
-    }*/
 }
